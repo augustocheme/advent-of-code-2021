@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const depths = fs
-  .readFileSync("input.txt", "utf8")
+  .readFileSync("day-01/input.txt", "utf8")
   .split("\n")
   .filter((x) => Boolean(x))
   .map((x) => parseInt(x));
